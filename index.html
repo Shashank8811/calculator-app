@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cal">
+        <input type="text" class="input" readonly />
+        <div class="btns">
+          <button
+            class="btn"
+            onclick="disVal = '';
+          document.querySelector('.input').value = disVal;"
+          >
+            C
+          </button>
+          <button
+            class="btn"
+            onclick="disVal = disVal + '1';
+            document.querySelector('.input').value = disVal;"
+          >
+            1
+          </button>
+          <button
+            class="btn"
+            onclick="disVal = disVal + '2';
+          document.querySelector('.input').value = disVal;"
+          >
+            2
+          </button>
+          <button
+            class="btn"
+            onclick="disVal = disVal + '+';
+            document.querySelector('.input').value = disVal; "
+          >
+            +
+          </button>
+
+          <button
+            class="btn"
+            onclick="disVal = disVal + '3';
+            document.querySelector('.input').value = disVal; "
+          >
+            3
+          </button>
+          <button
+            class="btn"
+            onclick="disVal = disVal + '4';
+            document.querySelector('.input').value = disVal; "
+          >
+            4
+          </button>
+          <button
+            class="btn"
+            onclick="disVal = disVal + '-';
+            document.querySelector('.input').value = disVal; "
+          >
+            -
+          </button>
+          <button
+            class="btn"
+            onclick="disVal = disVal + '5';
+            document.querySelector('.input').value = disVal; "
+          >
+            5
+          </button>
+          <button
+            class="btn"
+            onclick="disVal = disVal + '6';
+            document.querySelector('.input').value = disVal; "
+          >
+            6
+          </button>
+          <button
+            class="btn"
+            onclick="disVal = disVal + '*';
+            document.querySelector('.input').value = disVal; "
+          >
+            *
+          </button>
+          <button
+            class="btn"
+            onclick="disVal = disVal + '7';
+            document.querySelector('.input').value = disVal; "
+          >
+            7
+          </button>
+          <button
+            class="btn"
+            onclick="disVal = disVal + '8';
+            document.querySelector('.input').value = disVal; "
+          >
+            8
+          </button>
+          <button
+            class="btn"
+            onclick="disVal = disVal + '/';
+            document.querySelector('.input').value = disVal; "
+          >
+            /
+          </button>
+          <button
+            class="btn"
+            onclick="disVal = disVal + '9';
+            document.querySelector('.input').value = disVal; "
+          >
+            9
+          </button>
+          <button
+            class="btn"
+            onclick="disVal = disVal + '0';
+            document.querySelector('.input').value = disVal; "
+          >
+            0
+          </button>
+          <button
+            class="btn"
+            onclick="disVal = disVal + '.';
+            document.querySelector('.input').value = disVal; "
+          >
+            .
+          </button>
+          <button
+            class="btn"
+            onclick="
+            let res = eval(disVal);
+            disVal = res;
+            document.querySelector('.input').value = disVal; "
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
