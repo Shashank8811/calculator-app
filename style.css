@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+.cal {
+  margin: 32px;
+  width: 250px;
+  height: 80vh;
+  background-color: aqua;
+  border: 1px solid rgb(104, 104, 104);
+  padding: 12px;
+  border-radius: 8px;
+}
+
+input {
+  padding: 8px 10px;
+  font-size: 24px;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+}
+
+.btns {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.btn {
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+  font-size: 14px;
+}
