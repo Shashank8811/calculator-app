@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: black;
+  /* background-color: black; */
 }
 .container {
   max-width: 1200px;
@@ -16,7 +16,7 @@ body {
   margin: 32px;
   width: 250px;
   height: 80vh;
-  background-color: aqua;
+  background-color: rgb(17, 18, 18);
   border: 1px solid rgb(104, 104, 104);
   padding: 12px;
   border-radius: 8px;
@@ -35,12 +35,28 @@ input {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 10px;
+}
+.input {
+  color: white;
+}
+input,
+.btn {
+  background-color: rgb(81, 79, 79);
+}
+.btn {
+  width: 50px;
+  height: 50px;
+  padding: 4px;
+  font-size: 18px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
 }
 
-.btn {
-  width: 45px;
-  height: 45px;
-  padding: 5px;
-  font-size: 14px;
+.o-btn {
+  background-color: rgb(251, 177, 18);
+  color: black;
 }
